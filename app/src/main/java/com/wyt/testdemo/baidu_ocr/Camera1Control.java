@@ -48,6 +48,10 @@ public class Camera1Control implements ICameraControl {
         previewView.requestLayout();
     }
 
+    private void test01(){
+
+    }
+
     /**
      * {@inheritDoc}
      */
