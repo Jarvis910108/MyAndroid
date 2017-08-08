@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wyt="http://schemas.android.com/apk/com.wyt.testdemo.fitstView"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<TextView
+    android:id="@+id/tv_baidu"
+    android:layout_marginTop="12dp"
+    android:background="@color/colorAccent"
+    android:layout_gravity="center"
+    android:textSize="16sp"
+    android:text="百度ocr"
+    android:padding="12dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+    <TextView
+    android:id="@+id/tv_huitong"
+    android:layout_marginTop="12dp"
+    android:background="@color/colorAccent"
+    android:layout_gravity="center"
+    android:textSize="16sp"
+    android:text="自己測試用"
+    android:padding="12dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:id="@+id/tv_openCamera"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorAccent"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:text="系统自带相机"
+        android:padding="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
